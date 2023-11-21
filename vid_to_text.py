@@ -3,6 +3,7 @@ from youtube_transcript_api import YouTubeTranscriptApi as yta
 import streamlit as st
 import audio_to_text
 
+
 def vid_to_text(link):
 
     # harman singh - manual script - https://youtu.be/Wn9iALMyS7c?si=q0LYZBrR9mSbj2b7
