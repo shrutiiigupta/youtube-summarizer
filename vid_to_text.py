@@ -21,6 +21,7 @@ def vid_to_text(link):
         data = audio_to_text(link)
 
     # print(data)
+    return 1
 
 def clean_text(data):
     final_data = ''

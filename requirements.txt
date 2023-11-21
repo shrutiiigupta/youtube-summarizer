@@ -4,3 +4,5 @@ pytube==15.0.0
 transformers
 sentencepiece==0.1.99
 torch
+spacy
+pytextrank

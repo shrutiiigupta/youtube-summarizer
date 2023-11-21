@@ -1,6 +1,7 @@
 import vid_to_text
 import streamlit as st
-import pegasus_summarizer as ps
+# import pegasus_summarizer
+import nlp_summarizer
 
 st.set_page_config(layout="wide")
 
@@ -14,8 +15,11 @@ video_link = col1.text_input("Enter Youtube video link")
 
 if(col1.button('Submit')):
     col1.video(video_link)
-    vid_to_text(video_link)
-    col2.markdown(ps.result)
+    if(vid_to_text(video_link)):
+        # col2.markdown(pegasus_summarizer())
+        col2.markdown(nlp_summarizer())
+    else:
+        col2.markdown("Processing...")
 
 
 
