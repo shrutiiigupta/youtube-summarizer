@@ -17,15 +17,6 @@ def vid_to_text(link,vid_id):
     # what is  python - english - https://www.youtube.com/watch?v=Y8Tko2YC5hA
     #  fraz google - https://www.youtube.com/watch?v=ZSoTKpKGkCU
 
-    # id = link.split('=')
-    # vid_id = id[-1]
-    
-    # vid_id=vid_id_extract.video_id(link)
-    # print(vid_id)
-    # if vid_id==None:
-    #     # print("invalid url")
-    #     st.error("Invalid URL")
-
 
     # transcript_list = yta.list_transcripts(vid_id)
     # transcript = transcript_list.find_transcript(['de', 'en'])
