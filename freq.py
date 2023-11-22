@@ -4,8 +4,6 @@ from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize, sent_tokenize
 
-
-
 def _create_frequency_table(text_string) -> dict:
 
     stopWords = set(stopwords.words("english"))
