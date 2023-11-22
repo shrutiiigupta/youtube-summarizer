@@ -12,7 +12,7 @@ Steps:
     - A. Abstractive
         - i. Pegasus
     - B. Extractive
-        - i. nltpk
+        - i. nltk
 
 
 
