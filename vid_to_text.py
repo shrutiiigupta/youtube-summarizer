@@ -66,5 +66,5 @@ def clean_text(data):
     summary_text.write(summary_data)
     summary_text.close()
 
-    return(final_data)
-    # return(summary_data)
+    # return(final_data)
+    return(summary_data)
