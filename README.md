@@ -9,10 +9,10 @@ Steps:
     - B. ASR(Automatic speech recognition)
         - i. Whisper OpenAI model (heavy)
 2. Transcript summarization
-    |--> A. Abstractive
-        |--> i. Pegasus
-    |--> B. Extractive
-        |--> i. nltpk
+    - A. Abstractive
+        - i. Pegasus
+    - B. Extractive
+        - i. nltpk
 
 
 
