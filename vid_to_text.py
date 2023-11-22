@@ -13,7 +13,7 @@ def vid_to_text(link,vid_id):
 
     # netflix death note dhruv rathee - no script allowed - https://www.youtube.com/watch?v=H3nzTmNlS4I&t=32s
     # power couple - auto-generated only - https://www.youtube.com/watch?v=6dpF_G3yMMQ
-    # https://www.youtube.com/watch?v=1qbna6t1bzw 
+    # veryyyy long vid - 892 words transcript haha - https://www.youtube.com/watch?v=1qbna6t1bzw 
     # what is  python - english - https://www.youtube.com/watch?v=Y8Tko2YC5hA
     #  fraz google - https://www.youtube.com/watch?v=ZSoTKpKGkCU
 
@@ -66,5 +66,5 @@ def clean_text(data):
     summary_text.write(summary_data)
     summary_text.close()
 
-    # return(final_data)
-    return(summary_data)
+    return(final_data)
+    # return(summary_data)
