@@ -1,165 +1,479 @@
- So, I'm from Guatemala. This is a public service announcement, that is where Guatemala is. (Laughter) Also, that is not
-where they keep the prisoners. That is called Guantanamo. (Laughter) Not the same place. So Guatemala's right below Mexico. And for the Americans in the audience, and let this sink in,
-because it really applies in most ways, for the Americans in the audience, you can think of it as Mexico's Mexico. (Laughter) Just like the US doesn't want
-illegal immigration from Mexico, Mexico doesn't want
-illegal immigration from Guatemala. It's a smaller country. It's a poor country. And well, what can I tell you, it has much better Mexican food. (Laughter) Guatemala is a very poor country. And a lot of people talk about education as something that brings equality
-to different social classes. But I always saw it as the opposite,
-as something that brings inequality. Because what happens in practice is that people who have a lot of money
-can buy themselves a really good education and therefore continue
-having a lot of money. Whereas people who don't have
-very much money barely learn how to read and write and therefore never make a lot of money. And this is especially true
-in poor countries. Now, I was fortunate that I received
-a rich person's education even though I didn't grow up rich. And it’s because I’m an only child. And my mother, who was a single mother, spent all of her resources
-on my education. And this allowed me to come
-to college to the US and eventually get a PhD
-in computer science. Now because of all of this about 10 years ago, I decided I wanted to do something that would give equal access
-to education to everyone. Oh, by the way, this is what I want
-to talk to you about today, giving equal access
-to education to everyone. At the time, I was a professor
-of computer science at Carnegie Mellon University, and I decided to work on this
-with my PhD student, Severin. The way my brain works, all of education is just
-too general of a problem. So I decided, let's start
-by teaching one thing. And then I started thinking,
-OK, well, what should we teach first? Should we teach math? I mean, we both love math. Me and my cofounder, we both love math. And, you know, we didn't
-decide to do math. Then we started thinking, well, maybe
-we should teach computer science. But eventually, and this is maybe
-surprising to people in North America, eventually, we decided
-that the best subject to start with was teaching foreign languages. And let me tell you why. There's a number of reasons. One of them is that there's
-a huge audience for it. There’s about two billion people
-in the world learning a foreign language, both in school and outside of schools. Most of these people, by the way,
-are learning English. About 80 percent of them
-are learning English. In this weird map right here, all the countries in green are countries in which people
-are predominantly learning English. And the reason for that is because English can truly
-transform your life. In most countries in the world, knowledge of English can significantly
-increase your income potential. So this is another reason why we decided
-to start with foreign languages. And it's because you can directly
-make more money if you learn another language,
-in particular English. And see, this is pretty different
-than many other subjects. For example, take math. In the case of math, just knowledge of math does not
-increase your income potential because usually you have to learn math
-to then learn physics to then become a civil engineer,
-that's how you make more money. Whereas with languages,
-if you are a waiter and you learn English, now you can be a waiter at a hotel
-and make more money. So we decided, well, let's get started
-by teaching languages. Now, we also convinced ourselves that the only way
-to really reach a lot of people was by using a mobile phone,
-or a smartphone in particular. See, building schools all over the world
-is simply too expensive. On the other hand, most of the world's population
-already has access to a smartphone, and the trend is that that fraction
-is only going to increase. So we decided at the time that we would make a way to learn
-foreign languages on a mobile phone that was accessible to everyone. And then we called it Duolingo. Thank you. (Applause) Now in order to truly be accessible
-to everyone, rich and poor, Duolingo uses a freemium model
-to support itself. What that means is that you can learn
-as much as you want without ever having to pay. But if you don't pay, you may have to see an ad
-at the end of a lesson. Now, if you don't like ads, you can also pay to subscribe
-to turn off the ads. And it turns out that the vast majority
-of the revenue for Duolingo comes from people who pay
-to subscribe to turn off the ads. Now, who are these people who pay
-to subscribe to turn off the ads? Well, they're usually well-off people
-in rich countries like the US and Canada. Who are the people
-who don't pay to subscribe? They usually come from poorer countries
-like Brazil or Vietnam or Guatemala. So what I like about this model is that it is a small form
-of wealth redistribution because we're basically
-getting the rich people to pay for the education of everyone. So I like that. (Applause) So with smartphones,
-we can reach a lot of people and we can even get the rich people
-to pay for the whole thing, which is great. However, if you're trying to deliver
-education with a smartphone, you run into a humongous problem. And it is that smartphones come equipped with some of the most addictive drugs
-that humanity has ever engineered. TikTok, Instagram, mobile games. See, delivering education
-over a smartphone is like hoping that people
-will eat their broccoli, but right next to it, you put
-the most delicious dessert ever made. (Laughter) If you really want to deliver
-education to everyone, not only do you have
-to make it accessible, but also you have to make it
-so that people want to actually learn. And with Duolingo,
-we've been able to do this. And at the highest level,
-the way we've done this is by making the broccoli
-taste like dessert. I'll say it another way. What we've done is that we've used
-the same psychological techniques that apps like Instagram,
-TikTok or mobile games use to keep people engaged, but in this case, we use them
-to keep people engaged but with education. Let me give you some examples
-of these techniques. One of the most powerful ones
-is the notion of a streak. What a streak is, is it’s just a counter that measures the number of days that you've used
-the product consecutively. You just take that number, you put it very prominently
-in your product and then people come back every day. And the reason people come back
-every day is because, well, if they don't come back,
-that number resets to zero and people don't want
-to lose their streak. It works. Now, on the one side, streaks have been criticized
-for, for example, getting teens addicted to Snapchat. But in the case of an educational app, streaks get people to come back
-to study every day. Now, to give you an idea
-of the power of streaks, in the case of Duolingo, we have over three million
-daily active users that have a streak longer than 365. (Applause) That means they haven't missed a day
-in the last year or longer. Now, fun fact about streaks. What country do you think
-has the longest average streaks for an educational app? It's Japan. Of course. Shortest-ever streaks? Latin America, baby. (Laughter) But we're fun, hey, we're fun. (Laughter) Another important mechanism to get people
-to come back to your product are notifications. On the one side, notifications
-can be really spammy and annoying, but in the case of an educational product, people actually want
-to be reminded to learn. In the case of Duolingo, we have
-a very sophisticated AI system that basically chooses
-when to send the notification and also what to say in each notification to maximize the probability
-that people come back. Now, interestingly, even after all this sophistication, it turns out that the algorithm
-for choosing what time to send you a notification
-is pretty simple. Do you know what is the best time
-to send people a notification? I'll tell you. It's 24 hours after
-they used the product last. There's an easy explanation. If you were free yesterday at 3pm, you’re probably free today
-at 3pm as well. So this is what a very sophisticated
-millions of dollars of AI found. (Laughter) It's funny. Now with notifications
-you shouldn't be spamming. And we're not spamming, with Duolingo, we actually stop sending notifications
-after seven days of inactivity. So if you don't use Duolingo
-for seven days, we stop sending you notifications. Now, at some point it occurred to us, if we're stopping
-to send people notifications, we should let them know. So we started sending
-this notification to people saying, "Hey, these reminders
-don't seem to be working. We'll stop sending them for now." You know what people do
-when they get this notification? They come back. (Laughter) Passive aggressive. (Laughter) Works for my mother, works for Duolingo. (Laughter and applause) These passive aggressive notifications are really good at getting
-people to come back back because they feel like our green
-owl mascot has given up on them, so they come back. And speaking of our
-green owl mascot, by the way, because all our notifications come
-from our green owl mascot and well, he's passive aggressive
-and also pretty pushy, this has given rise to a lot
-of memes on the internet that make fun of the great lengths
-that he will go through to get you back to learn a language. Here's one of my favorite ones. This is it's a meme,
-it’s one of my favorite ones. (Laughter) Basically looks like you forgot
-your Spanish lessons. And then there's an intruder alert, presumably the owl broke into your house
-to get you to learn language. Now, Duolingo has entered the zeitgeist. And there's thousands of memes,
-there's SNL skits about it. And it's because we've managed
-to get people to want to learn a language by using the same techniques that mobile games and social media use
-to get people engaged. And this is a really important point, let me say this. I don't actually believe that there's
-a way to make an educational app be as engaging as something like TikTok
-or Instagram or mobile games. But the good news is that -- And by the way, the reason
-I don't believe that is because ultimately you have
-to teach people something. And it's hard to compete with,
-like, cats and celebrities. But the good news is
-that I don't think you have to. See, here's the thing. When you're learning something,
-you get meaning out of it. Whereas when you're scrolling
-for two hours on Instagram, a lot of times afterwards, you feel
-like you just wasted your time. So I think it's actually OK
-if your educational product is only 80 or 90 percent as engaging
-as something like TikTok, because the other 10 or 20 percent will be provided
-by people's internal motivation, though of course, not much more than that. This is really a key point. If we want to get people
-to do something meaningful, you can use the same techniques
-that apps like social media use to get people to do it. And even if you're not as engaging
-as those apps are, you can still get hundreds of millions
-of people to use your product. In the case of Duolingo, for example, there are more people learning languages
-on Duolingo in the United States than there are people learning languages
-across all US high schools combined. (Applause) And this is true
-in most countries in the world. My hope is that -- I know
-we can do this, but, you know, my hope is that as humanity, we can do what Duolingo has done
-for learning languages but for all other subjects. Where we can get people
-to learn math with mobile phones, like millions of people to learn
-math with mobile phones or physics or whatever. I hope for a future in which
-screen time is not a bad thing, in which we can deliver high-quality
-education to everyone, rich or poor, using a mobile phone. But the single most important thing
-that I can end this talk with, is a reminder to please,
-pretty please, I beg you, do your language lessons today. Thank you very much. (Laughter) Thank you. (Applause) Helen Walters: Luis, thank you so much. I wonder if you can just say
-a little bit more about that last point, how do you think you can apply
-this type of thinking to other subjects? So you mentioned math,
-and things like that. How do you do that? Luis von Ahn: I think in particular, subjects that are learned
-through repetition and it turns out most things
-that are kind of really meaningful are learned through
-thousands of repetitions. You learn to read through repetition, you learn elementary school math
-through repetition. Most things that you can learn
-through repetition, you can actually gamify
-and turn into something like Duolingo, where people just
-do it a lot and do it fun. It's a little harder for things
-like explanations. That probably is going to require
-some really good videos. Sal Khan is doing a really
-good job with that. But for things that require
-a lot of repetition, I think we can use the same methods. (Applause)
+ I want to ask you a weird question. Do you personally write
+Zomato's notifications? Was Swiggy a real problem? Swiggy has forever been a problem 
+for us. People don't know that Zomato
+had almost gone broke multiple times. And everytime he has gone out there
+and brought money back or made it unbroke. I actually want to know about those phases
+We had funds to survive for 4 months only. There's no money, what will
+you do? Will you bring the money? No, right. Then solve it. If you don't want to solve it,
+then you can go out. Someone else will solve it.
+Was the journey hard? The journey was fun.
+Challenges are fun. Pain is pleasure.
+-Yes. BDSM of business. Exactly from one delivery, 
+how does Zomato earn? What have you learnt about India's
+present and future? Especially when it comes to workforce.
+-The kind of people we want, they don't look for jobs.
+-Ohh. You believe in Poaching.
+Poaching or approaching. What are you running away from? Slavery. Expand... We do very little business oriented
+conversations on TRS because honestly not all of you watch entrepreneurship 
+conversations, but today's guest is Indian entrepreneurship legend,
+Zomato founder, Deepinder Goyal. We've discussed psychological side of 
+business in a very relaxed manner. We've spoken about failure and 
+struggling phase. If you want to open big businesses 
+in life, do a lot of things, watch this podcast till the end from a 
+business or start up oriented perspective. I know the entire start up community will
+watch this podcast but I want the students in the interiors of India to
+watch this podcast till the end. It's a very nice conversation
+with Deepinder Goyal. Learn about Zomato. Learn about Deepinder's mindset 
+and about future of India on this episode of TRS. Welcome Deepinder Goyal to TRS. How are you, Sir?
+-All well, very nice. Should I call you Sir or Bro.
+-Whatever you want to call me. You have too much of a bro energy.
+-Is it? But that's because I don't
+work for you. Asking a strange question. Do you yourself write
+those Zomato notifications? I write a few.
+-Seriously? A few.
+-Cool! Was this your idea to have
+trippy notifications? We didn't plan for something like this,
+but it happened by itself. We tried a few things which worked
+and it all happened organically. Did something else, that also worked, then people said your brand is like this
+and we continued to do it. Were there any phases where you wanted
+to give up or felt very low? Many a times.
+-When did you feel the lowest? Many a times. I felt like quitting
+every two-three weeks. Even now?
+-Yes. Ok. I do research before every podcast. I asked a lot of people in the
+business community what to ask you. Many people said that
+in the business community, there is different chatter 
+than what the public knows. There is a lot of respect for
+your work. But they say people don't know that
+Zomato almost went broke multiple times. Everytime you went back
+and got back the money. And managed the situation. 
+I actually want to know about those phases What was happening from human perspective?
+What happened in the company? What did you solve as a human and 
+what did you do for the company? Let's say we've four months of money left. Let's round up and say we had ten million 
+dollars for four months. Our burn rate was very high back then.
+-Ok. When the next month is over
+we should still have 4 months' money left. Then we used to reduce the burn rate.
+This month we spent 2.5 million. We were left with 7.5 million. Next month burn rate should have
+been less than 2. Like this, we always kept
+four months' money in the bank. So, if you always have 4 months' money
+with you, then you have an infinite life span
+in a way. How does a day in your
+work life look now? Wake up in the morning. Go to gym.
+Get to office. Back to back meetings
+for 8 to 9 hours. Talk about those 8-9 hours.
+What do you do? How do you handle such a big company? I don't. Team is very good nowadays.
+-How do you handle the team? My work is more or less putting the
+right people in right places. Ok. So if the team is good.
+If people are solving the right problems. Then it's done. As the company
+upgrades at each stage. you have to hire a new set of
+top level hires. Or do the same guys get promoted
+or is it a mix? It's better to grow from within. So you continue with the old people. 
+Why? Zomato is 15 years old. If you get
+an external hire, We have enough people
+who are 5-6 years old in the system. The context gets changed. If we were a two year old company,
+we had no choice but to get external hires But now if I have to 
+bring someone from outside... Let's say we hire someone. Either I have to be very sure that he's 
+really good or that he has a unique skill. Let's say I have a head
+of marketing position. If I hire from outside, it will
+take six months to bring someone. First you'll interview for 3 months.
+then he'll have to serve 3 months notice. He'll join in 6 months and there'll 
+be induction for 3 months. Then, after a year's time you'll know
+his performance. You've lost 2 years. Isn't it? It's easier for me to pick someone from
+inside, spend 3 months to grow him and put him in that role. He/She knows the business
+and that works. If you hired a top level person Do mess ups happen in that level too? Absolutely. Then how do you deal with that? Same mentality as dealing
+with mess ups from 2008? -Yes. Ok. Has it been a difficult journey? Problems are fun. Pain is pleasure.
+-Yes. BDSM of business.
+Business BDSM. It's like the gym. Pain is fun. I respect you a lot for multiple things
+but I respect you the most for Product skills which manifest
+as a growth of a business. I know you're a product person.
+Nithin Kamath was on the show 2-3 years back and he'd said that
+probably the most valued thing in the start up
+ecosystem are the product people. because product people
+think in the creativity domain. They build the present on basis of
+what they think the future should be. Can I take the name of a rival?
+-Doesn't matter. I think common man notices this
+about Zomato vs. Swiggy. People feel Zomato is way more innovative
+and I know you don't consider competition. I completely agree with that mentality
+that there is no such thing as competition as long as you're creating your
+own journey. This is what I love about you. I think all the GenZ's and people on my 
+team, they notice innovation on Zomato app Do you agree?
+-Yes. I would like to
+tell you a brutal truth. I personally feel reading habit
+is dying out in the world. because of short content and podcasts. The world culture is changing and
+when you say this to an author they don't agree.
+But it's true. I represent internet and I understand
+the thinking of youth. I know you've written a book
+about culture in Zomato. Many listeners would not
+read the book ever. Crunch down the book in this response. Please break down the book you
+wrote about culture. It's quite simple. We don't have a process led organization.
+Ours is culture led organization. And if people and culture is right then the organization works
+otherwise it doesn't work. What is the meaning of culture
+being right? Culture is how people behave. Ok. Response to stimuli and pressure. What do they think about their growth
+and quality of work? All this is culture. Culture book was more of a
+handbook for employees. If a new person comes to an
+induction, give him the book. Let him read it for 4-6 times. And if he works in the company then he'd
+hopefully read it because we're paying the person
+to read this book. You're giving them a 
+roadmap for growth. Of self growth.
+-Ok How to think? How to behave? Its a roadmap for that. Chikki saw this on my desk and
+insisted to publish it as it was good. I said ok, do it. Is culture the reason for you
+being able to scale to this extent? This book is about 80% of the core
+principles. I've been working on this book
+for a decade. Finally I was able to isolating 
+the important things. There'll be some more too. They'll be on the version 2. Is that your secret sauce? -How can it be 
+secret sauce in a company of 10,000 people Ok. Do you think you could scale up
+due to culture or there are other factors? I think it is culture.
+-At least after a certain point? No, I think from the beginning.
+-From the beginning. Ok. Do you want to elaborate 
+more on culture? Specifically what does self growth
+mean for a person in Zomato? I believe that mind set is everything. You experience doesn't matter, whether
+it is 5 years, 10 years or 15 years. If you are facing any unique problem, even
+if you are fresh out of college, You can solve the problem as well as
+someone who is doing it since 20 years. Probably better than the person who's 
+doing it since 20 years as you don't come with a baggage. It's about how you unlearn and
+bring freshness. And determination to the thing
+you're trying to solve. Ok. Usually where do you hire from
+in India? Do you hire from a metro? Or you hire randomly?
+-No rules. Do you get a bird's eye view
+of India? When it comes to workforce, what did you
+learn about India's present and future? The kind of workforce we hire
+is very different. Ideally we don't hire
+people who are looking for jobs. The kind of people
+we need, they don't search for jobs. So you poach them. Poaching or approaching. Wow. I like your illegitimacy.
+But go on. We look for good people, then we work
+on them; atleast the mid to senior Level. Hiring process is very long. It's like quoting, dating for 6-12 months.
+Then we're able to get people. It's a difficult work.
+Ok. Do you hire GenZ?
+-Definitely. Have you learned about GenZs? Is it very
+different than working with older people? GenZ's are way smarter than
+we were at that age. And. Potential is huge, but they've less
+patience than us at that age. And patience is a virtue
+which is required at work. I ask ambitious people like you this 
+question. Perhaps it's a rude question. But I'm not asking this rudely,
+so sorry. But I will still ask. The question is,
+what are you running away from? What am I running away from? Slavery. Expand. That's it.
+-That's it? You just want to say this? -Reason
+why you do this is you need freedom. In different forms. You won't get
+absolute freedom no matter what you do. There is no absolute freedom
+in this world. But if you get different types
+of freedom, then it's nice. My research team suggested me to ask you
+ONDC related question. Will you talk about it? Easiest way to explain ONDC is that
+it's government's Zomato. Until now you were playing SmackDown vs.
+Raw. Now ECW came in. Do you watch WWE?
+-During childhood. You got the reference. Anyway. ECW came in. Are you tensed?
+No? How will you deal? What's ONDC? 
+Is it even a problem to you? I don't know.
+-Is it too early to say? It's risky to say,
+it's too early to say. Because you can be lazy about it
+and stop watching it. So, I don't know. I don't want to call it a competition,
+because it isn't a competition yet. But you must be studying them. It keeps going. But you already have strategies.
+-I don't know. I don't think we have. We'll see when that problem 
+becomes real. Then you take a week-long timeline,
+put the gun on your head and solve it. This is the mentality. That if it becomes a real problem
+then solve it. Was Swiggy ever a real problem
+at some point? It has forever been a real problem
+for us. This is WWE vs. WCW. You're Vince McMahon. Swiggy once raised a billion dollars.
+We had nothing in our bank at that time. How did you go further
+from there? We sold our UAE business. We got 170 million dollars from there. We slowly kept fighting.
+Kept working hard. Again same approach. There is only so much money. We have to reach here. You have so much time.
+Gun to your head, solve it. So it's more important to have
+a base level blueprint. There should be protocol. Gun to the head. I think we must have a determination
+mind set that we must do it. Now you must solve this.
+There is nothing else to do. Either you can start blaming that if you
+have this, only then you can solve it. But there is no money.
+What will you do? Can you do something? Will you get money? No. Then solve it. If you can't, you leave.
+Someone else will solve it. Have you ever met Swiggy's founders?
+-Many a times. What do you talk? Friendship. Brotherhood. 
+You're playing a cricket match. Shaheen Afridi vs. Virat Kohli. We gauge the future. It's a nice friendly relationship.
+We don't talk business. It is not legal to talk 
+current business. Is it because of public listing? I might get to know about their
+strategy Competition should be fair. 
+We do not get to the competition. We gossip about future. How will drones operate in five minutes? Ok Do you take motivation 
+from each other on some level? I don't know about him. But I
+definitely take inspiration from him. Ok. Have you ever used Swiggy? Never. 
+-This was a tricky question. I've used it for experimental
+purpose many times. But haven't used it for
+real purpose so far. Only when you have to use
+the app to learn. Ok. To compare Zomato and Swiggy,
+I order the samething on both apps. I will openly say something. I use Zomato to order food but
+I use Swiggy a lot to order groceries. That's my use case. If I want to order groceries,
+I'll automatically open Swiggy. I use Swiggy because it was already 
+installed on phone since beginning. That was my mentality as a user. I'm sure you constantly study
+user mentality. When you open Zomato app
+yourself What do you think as a founder? As a product person, 
+I watch my emotions in a way. If I can do my work seamlessly and 
+calmly. That's a very good thing. Without having to think. If app irritates me,
+I get irritated. That's when I know it is not right. You call, what did you put in the app!?
+Sorry. We've created a product feedback group
+on slack where we add these issues. How do you talk? I say, 
+I think this should be this. Do you shout at people?
+-Rarely. No?
+-Rarely. I'd like to know when. When giving feedback to someone And when his mind 
+doesn't stop running. When people don't listen. I think then I've to sometimes raise
+my volume to get my message across. Has that been a good strategy? Works half the times. What happens when it
+doesn't work? Nothing. Person has so much noise in their
+heads that they don't even hear me shout. This is a random intrusive question. Do you know Ankit Bhaiyanpuria? Fastest ever grown Instagram account.
+Fastest ever grown social media account. Have you heard his name?
+-Yes. Recently he has
+seen very fast growth. He vlogs everyday and shows
+his fitness journey every day. Ex-Zomato rider. Isn't it?
+-Yes. I've heard about him.
+I've seen his Instagram profile. Ok. According to me, he should be
+one of your brand ambassadors. I think so. I'm giving you a very big 
+input here. I think so. We did more than five hundred podcasts. Dr. Jaishankar, Priyanka Chopra, Ashish Chanchlani, YouTuber. They were all 1/3rd of the speed in
+growth of views compared to Ankit. It's that much. All the best. But coming back
+to Zomato delivery partners. Did you ever think there would
+be so many lives impacted? I want to know more about 
+Zomato delivery partners. When you were creating
+the entire plan I remember when Zomato
+was just a review app. I read your interview back then. Beer Biceps, the word
+started off as a Zomato review page. Very nice. In college. It's true. I'm not lying. I wanted a creative name. I used to be a... Thank you, Bro.
+-It's a nice name. Thank you. I remember that you said in this interview that at some point 
+we'll turn into a delivery app. How long did you have this plan for?
+That's one question. Second is I'm sure when you thought 
+you would become a delivery app You'd have by then thought about
+delivery partners too. I had never thought
+about delivery partners. Swiggy did it first. And customer love for Swiggy was very
+high compared to our service. So, it was almost a forced move
+for us to do it. This delivery app had
+to be made in the future because in 2005, I made
+one out of college. So my first start up was a 
+food ordering app. -Really!? Actually that was my third start up. But my first serious start up 
+was a food ordering app. That didn't work. The scanned menus and reviews were 
+a trimmed down version of that start up. Then you went back to it? I had to. Because the whole goal was
+whenever the market was ready, people will do those things. You had this goal from the beginning. It was a dream. Not too serious about these things.
+Will see if this can be done. But if you can do it,
+then it will be fine. If it works out, it's good and if it 
+works out successful, it is even better. And how do you feel now?
+Detached? That it's done. I'm still working. The bigger it gets,
+the more harder it is. When Zomato delivery partners'
+stories are shown in media or when someone had a bad interaction
+with a customer. Someone becomes 
+a big Instagrammer. Zomato is getting marketing from there. I don't think that way.
+-Why? People say all marketing is 
+good marketing. I don't believe that. I think good marketing is good marketing
+and bad marketing is bad marketing. People say that all publicity is... Is good publicity. I don't believe that.
+-Really? Tell me. Karma is Karma. If you get marketing by doing 
+bad activities then it'll catch up. Marketing should leave a good taste
+in people's mouth. You should associate
+it with positive emotions. Negative emotion marketing
+is not marketing. -Ok. What is the core marketing strategy of
+Zomato? People from agencies tell you that
+this is all over the place. Even then people know about the brand. So your core mentality must be 
+some what right. What is your thought process?
+Especially your marketing branding team... Is it one team?
+-Yes, a small one. A small one?
+-Yes. What do you tell them? They say it. 
+I don't say anything. I think the principle they've narrowed
+down to is, we must make someone smile. Whenever you see any of our marketing 
+message or notification or Insta post there should be a smile on people's faces.
+-Positive energy. So they try to do that. Just that? First principles thinking.
+-Yes. So you try to make as many people 
+smile as possible. You can also narrow down and
+send non relevant notifications. So we try to achieve generic smiles. Ok. Do you keep hiring for that team? to bring in humor, to bring in... Yes, it is ongoing. Ok. I'm assuming you're hiring
+GenZ's there. -Yes. Has Zomato's marketing changed
+over the years? I think distribution channels have changed but the tonality and what we've been
+able to achieve we try to achieve consistency in that. Distribution channels mean Facebook first,
+then Instagram, twitter. And what's the hot thing now? Now hot thing is Insta 
+and push notifications. Our push notification 
+distribution is pretty high. And many go viral too. And that's a thought out process,
+a strategy. Not just something 
+that happened by itself. It actually happened by chance, but it
+worked. So we sticked on. Ok. Many delivery partners of Zomato
+are listening to this podcast. What would you like to tell them? There is a big range in the
+Zomato delivery partners. Range of quality of work,
+of quality of people. Largely I'd say thank you. Continue 
+doing good work and drive safe. Take care of your health and exercise.
+Don't break your backs. It's a hard job. So please 
+take care of yourself. What would you like to say to the
+top level delivery partners? I'd like to tell them the same thing. So thank you, take care of yourself. Ok.
+Alright. There's a lot of fraud at the bottom too.
+I would like to tell the bottom ones Don't do that. Relax, chill. 
+Do good work. You'll eventually 
+make more money if you... Do they try to make money? Why do you order from Zomato?
+You can directly tell us. They run away 
+after picking up customer's food. They tell customer that their online 
+payment didn't go through, you'll be refunded, give me the cash.
+Some random things. Does it happen all over the country? It happens less than bottom 1%. I think it happens less in Mumbai. We don't let that happen. What happens if it happened? Rider is terminated. So if I ever tweet on Twitter
+or post something on Insta I get many comments. Sir, please reactivate my ID. They are all caught due to fraud. It's 98% accurate.
+2% of the times, we're at fault by putting them in a box
+where they shouldn't be put. Did you anticipate there would be
+such a problem in food delivery? It happened since Day 1.
+-Is it? You knew this was going to happen.
+-Yes. It happens more in India. In which cities is it happening? It happens every where. It happened everywhere.
+Does it happen in Mumbai and Delhi too? Mumbai and Bangalore too?
+-It happens everywhere. Ok. What is their mentality? Whether they want to make money
+or have food? Or just want to have fun? They think no one will know.
+This is an app. Generally new riders do this. Around 20 to 30 thousand new riders 
+join every month. A small percentage out of them think
+this is just an app. How will they know? But eventually we get to know
+about it. This is f****** question.
+Sorry for the language. How does Zomato make money
+from one delivery? There are some customer charges. And we get commission from restaurants
+because they're getting orders. In a way this is a marketing fee
+for them. We must pay the rider. So some money is coming in,
+some money is going out. The whole goal is that the money coming in
+must be more than the money going out. If a customer spends Rs. 100
+on Zomato. On food or on delivery charges? Let's say total spend of 
+customer is Rs. 200. We don't make money
+on the order of Rs 200. Ok What about thousand? We make a decent money on
+thousand rupees. -How much? At thousand Let's come to three hundred.
+That's the average. Depending on the city the average
+is around 300 to 400. Let's consider four hundred as the 
+average value. So our blended commission
+comes upto Rs. 80. Blended commission is around 20%. It's lesser than 20%. Must be
+somewhere around 17-18%. Let's consider Rs. 80. And customer 
+delivery charges are Rs 20-25. So the revenue is around Rs. 100. There's nothing else. And cost of delivery is around Rs 50-60-70
+depending on the city and distance. If the distance is more cost is more.
+If it is less cost is less. Then customer support charges.
+If you chat, the cost of the agent. Payment Gateway fee. If you didn't like the food then a
+refund has to be made. Ok. How do you give
+such big discounts sometimes? The discounts are very less. They were given initially. It was less before too.
+Just feels like they were more. 50% off upto 80.
+It's not 50%. It's Rs.80 off. Order is worth 400. It's just 20%.
+Isn't it? Nice.
+-I want to change it, but I don't call this discounting honest. If you're telling something to your
+customer, it should be honest. It should be Rs. 80 off. It should'nt
+be 50% off up to Rs. 80. If the competition continues like this,
+I will not be able to change. Because you are saying
+on the internet people's brand trust on Zomato
+is increasing. Because the founder is saying
+things openly. Are you aware of that?
+-I don't know. Ok. You are very unprocessed. You just say it.
+I like it. This is what the audience also likes.
+-I'm like this since childhood. If I want to talk a little more about
+orders, You're roughly making Rs. 80-100 per order
+and with scale across the country. That's revenue. From that the rider... All the cost is taken away. Hardly you 
+make Rs 5-10. -Profits. Five to ten rupees across the country. Not even Rs. 5. There are fixed costs of entire team, the entire
+tech, server cost, and rest of stuff. It is difficult to make 
+one to two rupees. -Wow. But at scale. From the core profit of Rs. 1 or 2,
+how have you become profitable? When we started making this Rs. 1 to 2,
+we became profitable. Really? Because the scale and the
+orders are very big. Initially our costs were 
+more than revenue. When this balance tipped
+we became profitable. Is this the long term
+VC money game? Like taking VC money... I don't know VC money, but businesses like
+ours have fixed costs which is quite high. Fixed cost is the engineering team's cost. Product Managers, Ops. team etc. Now the cost of fixed team will
+be the same whether my business is 1/3rd size or
+if it is 10X size. This will remain same. If I check the team's cost per order when my orders increase,
+the cost per order of the team will fall. And it is a heavy cost.
+It's not easy. If my scale becomes 10X,
+then my cost per order reduces. So if I don't move anything and the
+revenue also remained the same. And the rest of my costs remain same and I
+scale up, my profitability increases. Is this the reason you're expanding
+in other countries? We're not expanding to more countries.
+We're India only business. But you purchased some businesses. I did earlier, they were all closed down
+during COVID. Oh ok. How did that feel? Bad
+-Bad. How do you deal with that? How much money was spent
+on them? That's the mental health.
+-It's done now. Can't look back. Sunk cost. Coming back to India. Just by being a YouTuber.
+I am just making content. I have a little silo of my audience. It's a big silo. But it's not very big. May be 20-25 million, as compared to
+billions of Indians. And yet I feel, I've got a
+sample size. We get the data. So I can see a little bit of the future
+with that data. Ok. Do you feel the same about Zomato because you're serving so many people
+all over India. Have you learnt something about cities, 
+small towns? I think people are making more money.
+India is developing very fast. I'm excited about India. Ok. Very optimistic. I don't even want to go out of India
+and expand this business. There's so much in India
+for the next decade. If hundred percent is saturation point,
+then how far have you reached now? Not us, India might have reached up to 10. India has reached ten.
+Is it potential wise? -Potential. I think India will become next economic
+super power in the next 10-20 years. Like China and US scale.
+I can feel it. Spending power will increase.
+-Yes. and people will be able to eat better. Food is one of the things.
+For ex- There is Blinkit also. There's Hyperpure too.
+We've multiple things. You've to just focus on India 
+and scale up here. Our goal now is to focus on 
+India and Indians. I'm assuming in phase one you targeted
+metros like Mumbai, Delhi, Bangalore etc. Right. 900 cities. I would like to know about 
+the 900 cities. Can you name some of those 800-900 cities? I don't know.
+-The smallest towns My home town Muktsar is also one of them. If I'm not wrong, it is a 956th
+city by population. Do people spend there also?
+-Absolutely. What have you learnt about those cities? Zomato's use case there is unique
+because they don't have many things
+to spend on. What? -How will you go to watch a
+movie? There are no shopping malls. If you have money, you want entertainment
+or something new in your life. If you want to break the routine,
+then Zomato is a very good option. I think in small towns our adoption 
+is quite decent. You're getting a lot of data constantly? What kind of data? Consider every Saturday there's particular 
+no. of chicken biryani orders for dinner. So, you'll know how much Chicken Biriyani
+to keep ready for next weekend. We don't have to keep anything ready. Restaurants have to keep it ready. We just need data for capacity planning
+of riders. We don't need anything else.
+We send data to restaurants. Giving them tips on what they can do
+so things become easier. They're customer first businesses. So all the cloud kitchen restaurants
+are based on data. There was a requirement of...
+-Yes and No. Some of them are, some of them are not. Is that the right way to go for a 
+restaurant? I think data can only predict the present. And make the present batter. Now, at this point, September 2023, What is Zomato's challenge? I think growth and profit. That's kind of external. Internally we focus on team quality and I
+think that's my big area of work now. I act a lot like HR these days. The scale at which you are working, you
+must care about culture much more than... As I said, right people 
+at the right places and they are working on right problems
+then we're sorted. I've to make sure, we're the right people,
+they've been trained and coached well. So, that's about it. Is this easier than your previous
+business phases? That you're focusing on HR now? I think this is a phase in life
+where I am able to do it. I don't know whether this phase will last. Tell us about your three-four
+biggest mistakes in short. Not specifics, but general learnings
+from those mistakes. For your entrepreneurs. I have one big thing. In 2013-14-15,
+we did a lot of international expansions. At that time, I felt India is small.
+India does not have a market size. Let's go international. I should have focused on India,
+stayed in India. Power of focus? Is the learning power of focus here
+or to focus on India? Focus on India. I think right now there are lot of start ups
+who want to go international. My advice to them is to stay in India
+and chill. Why? Every market is different. Regulations, people you work with,
+culture will change with every country. The culture with which
+you are working in India, it's not the same in Middle East,
+the US or Europe. If you go to multiple countries, it 
+becomes harder to run an organization. Compliance, legal bills,
+regulations are complex. People say that the market
+size of India is not big. That's why they want to go outside. I tell them if not today,
+after ten years it will be too much. And like me, we closed
+all the international markets. You will too. You say that India has 90% of your
+business. Why should I spend 50% of my time
+for 10% business? Doesn't work. Isn't it? We shut down international when
+India was hitting 93% of our revenue. But so much effort was going into it. I didn't have time to talk to 
+Country Manager of Australia over phone. Why do it?
+You're just one percent. It was prudent to shut it down.
+-Ok. What was your growth mentality
+before expansion? You wanted growth?
+-Scale. You wanted to hit the ball. There should be some ball to hit. If you were 22 years old today and you
+want to enter into startups Would you do something like
+Zomato style again? It's a very hypothetical question. But if you were a young 
+entrepreneur today which type of business would 
+you do in India? I don't know. It doesn't matter 
+if I am 22 or some other age. If I had a brilliant idea, I'd have chased
+within Zomato even today! Ok. If someone snatched 
+everything from you today. and left you a bare minimum. Then what would you do? Start again. Start Zomato again? No, start something new. What new would you like to start?
+I don't know. You'll take time off to learn.
+-Yeah. How'd you learn? Wander. Travel? No, wander mentally. Do you do mental wandering? How?
+-Yes. I'd read. Reading is my thing. What do you read? Random books.
+-Ok. Really? About? -Chemistry, Physics, Biotech.
+I read everything. Just like that?
+-Yes. To exercise the mind? Which is the best book you read? There's nothing like that.
+-Which was the most impactful book? Which was the most impactful book? I should have the answer to this,
+but I don't have it. What's the book you gift the most? Nowadays I gift culture. Apart from your book. The Art of Thinking Clearly is
+what I gifted the most, outside of that. First principles thinking based. I'm assuming.
+-Human biases. How to read your own mind? Tell me a little. Humans have a lot of biases.
+We're not rational. We take a lot of 
+emotional and stupid calls. I think there are around 70-80-100
+heuristics in that. So if you can internalize them,
+you can take better calls and decisions. Why do you read chemistry books? I think it's all the same.
+It's all first principles thinking. Chemistry also teaches you 
+a lot of things. Physics also teaches you 
+a lot of things. That you can apply on Zomato? You can. You could at some point in time.
+I don't know how. Basically you're saying learn something,
+you never know when it will be useful. Atleast you'll become smart.
+-When you need something, you don't know what should be the solution to
+this, what should I learn to solve this? Life is not that easy. More the information you download into 
+your brain, you're able to use it sometime Constant learning process is
+necessary for business career. I don't know.
+-For you? I operate like that. Ok, next time I'll ask
+you chemistry questions. Deepinder Goyal, thank you.
+It was fun talking to you. Thank you, Sir.
+-Lots of love, lots of good wishes. Reign India. What's going to happen in India 
+in the next ten years, let a lot of this money reach you
+and Zomato delivery partners. Thank you, Sir. Appreciate your time.
+Thank you so much. So this was today's episode. I like
+business conversations very much. But we do very few business conversations
+because honestly, we don't get views 
+on business conversations. So you tell me
+from business perspective which business legend
+would you like to see on TRS? Send guest recommendations
+and keep following TRS.

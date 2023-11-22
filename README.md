@@ -5,7 +5,7 @@ streamlit run main.py
 
 Steps:
 1. Extract Transcript
-    - A. Directly from yt
+    - A. Directly from yt API
     - B. ASR(Automatic speech recognition)
         - i. Whisper OpenAI model (heavy)
 2. Transcript summarization
@@ -13,6 +13,7 @@ Steps:
         - i. Pegasus
     - B. Extractive
         - i. nltk
+        - ii. Spacy
 
 
 

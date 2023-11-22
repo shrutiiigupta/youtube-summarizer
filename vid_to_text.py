@@ -2,9 +2,11 @@ from youtube_transcript_api import YouTubeTranscriptApi as yta
 import audio_to_text
 import freq
 # import pegasus_summarizer
-# import nlp_summarizer
+import nlp_summarizer
 # import vid_id_extract
 import streamlit as st
+
+from nlp_summarizer import nlp_spacy_summarizer
 
 def vid_to_text(link,vid_id):
 
@@ -15,7 +17,10 @@ def vid_to_text(link,vid_id):
     # power couple - auto-generated only - https://www.youtube.com/watch?v=6dpF_G3yMMQ
     # veryyyy long vid - 892 words transcript haha - https://www.youtube.com/watch?v=1qbna6t1bzw 
     # what is  python - english - https://www.youtube.com/watch?v=Y8Tko2YC5hA
-    #  fraz google - https://www.youtube.com/watch?v=ZSoTKpKGkCU
+    # fraz google - https://www.youtube.com/watch?v=ZSoTKpKGkCU
+    # tedx - https://www.youtube.com/watch?v=P6FORpg0KVo 
+    # martin luther - https://youtu.be/_IB0i6bJIjw?si=2ZKZqi9uCfHC486K 
+    # Ranveer Allahbadia - https://www.youtube.com/watch?v=3wBEUuV7BYg
 
 
     # transcript_list = yta.list_transcripts(vid_id)
@@ -61,7 +66,12 @@ def clean_text(data):
     text.write(final_data)
     text.close()
 
-    summary_data=freq.main_freq()
+    # method 1
+    # summary_data=freq.main_freq()
+
+    # method 2 --> spacy nlp summmarizer
+    summary_data=nlp_summarizer.nlp_spacy_summarizer()
+
     summary_text = open("summary.txt",'w')
     summary_text.write(summary_data)
     summary_text.close()
