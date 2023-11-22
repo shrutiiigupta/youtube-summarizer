@@ -1,7 +1,7 @@
-import vid_to_text
+import vid_to_text as v
 import streamlit as st
-# import pegasus_summarizer
-import nlp_summarizer
+import time
+import vid_id_extract
 
 st.set_page_config(layout="wide")
 
@@ -14,12 +14,18 @@ col2.subheader("Summarized text")
 video_link = col1.text_input("Enter Youtube video link")
 
 if(col1.button('Submit')):
-    col1.video(video_link)
-    if(vid_to_text(video_link)):
-        # col2.markdown(pegasus_summarizer())
-        col2.markdown(nlp_summarizer())
+    with st.spinner('Loading...'):
+        time.sleep(2)
+
+    vid_id=vid_id_extract.video_id(video_link)
+    # print(vid_id)
+    if vid_id==None:
+        col1.error("Invalid URL")
+        col1.info("Please Enter valid URL")
     else:
-        col2.markdown("Processing...")
+        col1.video(video_link)
+        col2.markdown(v.vid_to_text(video_link ,vid_id))
+
 
 
 
