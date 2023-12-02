@@ -13,10 +13,10 @@ def pegasus_summarizer():
         example_text = f.read()
 
     # Define PEGASUS model
-    pegasus_model = PegasusForConditionalGeneration.from_pretrained(model_name)
+    # pegasus_model = PegasusForConditionalGeneration.from_pretrained(model_name)
 
     # Create tokens
-    tokens = pegasus_tokenizer(example_text, truncation=True, max_length=512, padding="max_length")
+    # tokens = pegasus_tokenizer(example_text, truncation=True, max_length=512, padding="max_length")
 
     # Define summarization pipeline
     summarizer = pipeline(
@@ -26,8 +26,9 @@ def pegasus_summarizer():
         framework="pt"
     )
 
-    summary = summarizer(example_text, min_length=30, max_length=50)
+    # summary = summarizer(example_text, min_length=30, max_length=50)
+    summary = summarizer(example_text)
     result=summary[0]["summary_text"]
-    # print(result)
+    print(result)
     return(result)
 
