@@ -1,5 +1,5 @@
 import spacy
-import pytextrank
+# import pytextrank
 
 def nlp_spacy_summarizer():
       nlp = spacy.load("en_core_web_lg")
