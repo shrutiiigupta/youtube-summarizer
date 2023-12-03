@@ -9,7 +9,14 @@ model_name = "google/pegasus-xsum"
 # Load pretrained tokenizer
 pegasus_tokenizer = PegasusTokenizer.from_pretrained(model_name)
 
-example_text = open('transcript.txt').read()
+with open('transcript.txt') as f:
+    example_text = f.read()
+
+# Define PEGASUS model
+pegasus_model = PegasusForConditionalGeneration.from_pretrained(model_name)
+
+# Create tokens
+tokens = pegasus_tokenizer(example_text, truncation=True, max_length=512, padding="max_length")
 
 # Define summarization pipeline
 summarizer = pipeline(
