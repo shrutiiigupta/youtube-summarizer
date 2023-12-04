@@ -1,4 +1,3 @@
-from re import A
 from youtube_transcript_api import YouTubeTranscriptApi as yta
 import audio_to_text
 import freq
