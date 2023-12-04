@@ -3,6 +3,7 @@ import streamlit as st
 import time
 import vid_id_extract
 import os
+from metrics_eval import meteor , rouge
 
 # print(st.__file__)
 
@@ -28,8 +29,14 @@ if(col1.button('Submit')):
     else:
         col1.video(video_link)
         col2.markdown(v.vid_to_text(video_link ,vid_id))
+    
+        c1,c2,c3,c4=st.columns(4)
+        with c1:
+            c1.markdown("## Meteor Score : "+ "\n #### " + str(meteor.meteor()))
+        with c2:
+            c2.markdown("## Rouge Score : "+ "\n #### " + str(rouge.rouge()))
 
-os.remove('./audiofile.mp3')
+# os.remove('./audiofile.mp3')
 
 
 
