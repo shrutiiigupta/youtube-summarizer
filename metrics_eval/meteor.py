@@ -10,6 +10,7 @@ import nltk
 # candidate = "Born and raised in the Austrian Empire, Tesla studied engineering and physics in the 1870s without receiving a degree, gaining practical experience in the early 1880s working in telephony and at Continental Edison in the new electric power industry. With the help of partners to finance and market his ideas, Tesla set up laboratories and companies in New York to develop a range of electrical and mechanical devices. Attempting to develop inventions he could patent and market, Tesla conducted a range of experiments with mechanical oscillators/generators, electrical discharge tubes, and early X-ray imaging. Throughout the 1890s, Tesla pursued his ideas for wireless lighting and worldwide wireless electric power distribution in his high-voltage, high-frequency power experiments in New York and Colorado Springs. Tesla tried to put these ideas to practical use in his unfinished Wardenclyffe Tower project, an intercontinental wireless communication and power transmitter, but ran out of funding before he could complete it."
 
 def meteor():
+    print("meteor started")
     nltk.download('wordnet')
     generated_summary = open("./summary.txt","r",encoding="utf8").read()
     reference_summary = open("./transcript.txt","r",encoding="utf8").read()
@@ -19,5 +20,6 @@ def meteor():
 
     score = meteor_score.meteor_score([tokenized_reference], tokenized_summary)
     print(score)
+    print("meteor ended")
     return(round(score,2))
 # meteor()

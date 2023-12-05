@@ -7,6 +7,7 @@ import streamlit as st
 from method4_nltk_and_pegasus import  m1_nltk
 import BART_summarizer
 import pegasus_summarizer
+import nltk_summarizer
 
 
 def vid_to_text(link, vid_id):
@@ -130,16 +131,19 @@ def only_summary():
     # summary_data=freq.main_freq()
 
     # method 2 --> spacy nlp summmarizer
-    summary_data = nlp_summarizer.nlp_spacy_summarizer()
+    # summary_data = nlp_summarizer.nlp_spacy_summarizer()
 
     # method 3 --> bart
-    # summary_data = BART_summarizer.bart_summarizer()
+    summary_data = BART_summarizer.bart_summarizer()
 
     # method 4 --> nltk + pegasus
     # summary_data = m1_nltk.nltk()
 
     # method 5 --> pegasus only
     # summary_data=pegasus_summarizer.pegasus_summarizer()
+
+    # method 5 --> nltk only
+    # summary_data = nltk_summarizer.nltk_summarizer()
 
     summary_text = open("summary.txt", 'w', encoding="utf-8")
     summary_text.write(summary_data)
