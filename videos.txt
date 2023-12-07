@@ -2,12 +2,15 @@ Manual transcript
 
 1. harman singh
 https://www.youtube.com/watch?v=Wn9iALMyS7c
-nltk --> bessttttt all scores 
+best --> nltk --> M(.52) R(.92) B(.6-.99) 
+ok --> spacy --> M(.24) R(.24) B(.6-.97)
+ok --> pegasus --> M(.09) R(.13) B(.58-.83)
+bad --> bart --> M(.04) R(.13) B(.59-.85)
 
 
 2. Story of rani laxmibai
 https://youtu.be/qVtoQAO4lLU?si=yQJerD1ucTfrOArP
-bad --> nltk --> 0.2 meteor rouge
+bad --> nltk -->M(0.2) rouge
 bad --> nlp --> met rouge
 
 
@@ -63,7 +66,17 @@ extreme accurate --> nlp spacy all 1 score
 
 5. Spotify engineering culture
 https://www.youtube.com/watch?v=4GK1NDTWbkY
-bad --> bart --> R(.06) B(.6-.7) M(.01)
-ok --> pegasus --> R(.3) B(.6-.9) M(.06)
 good --> spacy --> M(.6) R(.15) B(.6-.9)
+ok --> pegasus --> R(.3) B(.6-.9) M(.06)
+bad --> bart --> R(.06) B(.6-.7) M(.01)
 nltk not working + bertScore  error
+
+
+ASR
+
+1.
+https://www.youtube.com/watch?v=e0HlQh-hwyE
+spacy -->M .36  R(.23)  B(.6-.9)
+nltk--> M(.15) R(.15) B(.6-.9)
+peg --> M & R (.05) B(.6-.7)
+bart --> M & R (.07) B same

@@ -4,13 +4,15 @@ import freq
 # import pegasus_summarizer
 import nlp_summarizer
 import streamlit as st
-from method4_nltk_and_pegasus import  m1_nltk
+from method4_nltk_and_pegasus import m1_nltk
 import BART_summarizer
 import pegasus_summarizer
 import nltk_summarizer
 
+# flag_here=""
 
-def vid_to_text(link, vid_id):
+
+def vid_to_text(link, vid_id, flag):
 
     # hindi - harman singh - manual script - https://youtu.be/Wn9iALMyS7c?si=q0LYZBrR9mSbj2b7
     # --- https://www.youtube.com/watch?v=Wn9iALMyS7c
@@ -26,14 +28,13 @@ def vid_to_text(link, vid_id):
     # eng -manual script - 5 Fascinating Missions in Space | Planet Explorers: Full Series | BBC Earth Lab - https://www.youtube.com/watch?v=kvfa-6Pr36w
     # en - mba speech - no transcript - https://www.youtube.com/watch?v=e0HlQh-hwyE
 
-
     # verrryy long vids
     # https://www.youtube.com/watch?v=7CqJlxBYj-M
     # https://www.youtube.com/watch?v=PkZNo7MFNFg&t=8560s
 
     english_language_codes = [
         'en',
-       'en-AU',
+        'en-AU',
         'en-BZ',
         'en-CA',
         'en-IE',
@@ -45,19 +46,22 @@ def vid_to_text(link, vid_id):
         'en-US',
         'en-IN']
 
-
     # transcript_list = yta.list_transcripts(vid_id)
     # transcript = transcript_list.find_transcript(english_language_codes)
     # print(transcript.language,transcript.language_code)
-        # transcript.translation_languages,
+    # transcript.translation_languages,
 
     # data = transcript.fetch()
     # print(data)
 
+    global flag_here
+    flag_here = flag
+
     try:
         print("transcript try1 --> manual scripts only")
         transcript_list = yta.list_transcripts(vid_id)
-        transcript = transcript_list.find_manually_created_transcript(english_language_codes)
+        transcript = transcript_list.find_manually_created_transcript(
+            english_language_codes)
         data = transcript.fetch()
         # print(
         # # a list of languages the transcript can be translated to
@@ -82,13 +86,14 @@ def vid_to_text(link, vid_id):
             if (data == '1'):
                 data = only_summary()
             else:
-                data="audio_to_text return != 1"
+                data = "audio_to_text return != 1"
             return (data)
 
     # return("kkklkl")
 
 
 def clean_text(data):
+    print(flag_here)
     print("clean_text entered")
     final_data = ''
     for val in data:
@@ -125,31 +130,36 @@ def clean_text(data):
 
 
 def only_summary():
+    print(flag_here)
     print("only_summary entered")
 
-    # method 1
-    # summary_data=freq.main_freq()
+    if (flag_here == '00'):
+        # method 5 --> nltk only
+        summary_data = nltk_summarizer.nltk_summarizer()
 
-    # method 2 --> spacy nlp summmarizer
-    # summary_data = nlp_summarizer.nlp_spacy_summarizer()
+    elif (flag_here == '01'):
+        # method 2 --> spacy nlp summmarizer
+        summary_data = nlp_summarizer.nlp_spacy_summarizer()
 
-    # method 3 --> bart
-    summary_data = BART_summarizer.bart_summarizer()
+    elif (flag_here == '10'):
+        # method 5 --> pegasus only
+        summary_data = pegasus_summarizer.pegasus_summarizer()
 
-    # method 4 --> nltk + pegasus
-    # summary_data = m1_nltk.nltk()
-
-    # method 5 --> pegasus only
-    # summary_data=pegasus_summarizer.pegasus_summarizer()
-
-    # method 5 --> nltk only
-    # summary_data = nltk_summarizer.nltk_summarizer()
+    elif (flag_here == '11'):
+        # method 3 --> bart
+        summary_data = BART_summarizer.bart_summarizer()
 
     summary_text = open("summary.txt", 'w', encoding="utf-8")
     summary_text.write(summary_data)
     summary_text.close()
-    print("done")
+    print("Summary Done")
 
     # print(summary_data)
     # return(final_data)
     return (summary_data)
+
+    # method 4 --> nltk + pegasus
+    # summary_data = m1_nltk.nltk()
+
+    # method 1
+    # summary_data=freq.main_freq()

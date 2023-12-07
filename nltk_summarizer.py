@@ -63,10 +63,10 @@ def nltk_summarizer():
 
     # # Write the summary to the output file
     # # with open("summary_temp.txt", "w",encoding='utf-8') as output_file:
-    print(summary)
     # open("summary_temp.txt", "w",encoding='utf-8').write(summary)
+    # print("Summary has been saved to summ_temp.txt")
 
-    print("Summary has been saved to summ_temp.txt")
+    # print(summary)
     print("nltk exit")
     return(summary)
 
