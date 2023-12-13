@@ -1,3 +1,4 @@
+#project  overview
 pip install -r requirements.txt
 
 to run application:
@@ -14,6 +15,10 @@ Steps:
     - B. Extractive
         - i. nltk
         - ii. Spacy
+3. Metrics(To validate accuracy)
+     - A. BertScore
+     - B. Rogue
+     - C. Meteor
 
 
 
