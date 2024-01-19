@@ -11,7 +11,7 @@ def rouge_func():
     # metrics=['rouge-n', 'rouge-l', 'rouge-w']
     metrics=['rouge-n', 'rouge-l']
     # metrics=['rouge-1','rouge-2', 'rouge-l']
-    rouge2 = Rouge(metrics,max_n=2)
+    rouge2 = Rouge(metrics)
 
     scores = rouge2.get_scores(generated_summary, reference_summary)
 
