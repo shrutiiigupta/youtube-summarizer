@@ -41,7 +41,7 @@ def bert_intmed():
     # Step 8: Print the result
 
     print("bertScore_intermed end")
-    print("Similarity between the texts: {:.4f}".format(similarity[0][0]))
+    # print("Similarity between the texts: {:.4f}".format(similarity[0][0]))
     return(round(similarity[0][0],2))
 
 ### Output: Similarity between the texts: 0.9000

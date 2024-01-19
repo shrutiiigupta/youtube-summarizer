@@ -12,7 +12,7 @@ def bertScore_different():
 
     P, R, F1 = score(cands, refs, lang='en', verbose=True)
     print(F1)
-    print(f"System level F1 score: {F1.mean():.3f}")
+    # print(f"System level F1 score: {F1.mean():.3f}")
 
     return(f"{F1.mean():.3f}")
 # bertScore_different()

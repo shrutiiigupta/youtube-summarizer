@@ -10,8 +10,8 @@ def rouge_func():
     # print(generated_summary)
     # metrics=['rouge-n', 'rouge-l', 'rouge-w']
     # metrics=['rouge-n', 'rouge-l']
-    metrics=['rouge-1','rouge-2', 'rouge-l']
-    rouge2 = Rouge(metrics)
+    # metrics=['rouge-1','rouge-2', 'rouge-l']
+    rouge2 = Rouge()
 
     scores = rouge2.get_scores(generated_summary, reference_summary)
 
