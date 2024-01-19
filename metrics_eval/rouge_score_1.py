@@ -1,5 +1,5 @@
 import torch
-from rouge import Rouge
+import rouge
 
 def rouge():
     print("Rouge started")
@@ -8,9 +8,9 @@ def rouge():
     # print(generated_summary)
     # metrics=['rouge-n', 'rouge-l', 'rouge-w']
     metrics=['rouge-n', 'rouge-l']
-    rouge = Rouge(metrics, max_n=2)
+    rouge2 = rouge.Rouge(metrics, max_n=2)
 
-    scores = rouge.get_scores(generated_summary, reference_summary)
+    scores = rouge2.get_scores(generated_summary, reference_summary)
 
     # print(scores)
     total_f_score = 0.0
