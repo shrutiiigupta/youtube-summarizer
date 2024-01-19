@@ -10,4 +10,7 @@ pytextrank
 nltk
 torch
 rouge
+whisper
+
+
 
