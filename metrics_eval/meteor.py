@@ -2,7 +2,10 @@ from nltk.translate import meteor_score
 from nltk import word_tokenize
 
 import nltk
+<<<<<<< HEAD
 nltk.download('wordnet')
+=======
+>>>>>>> 956b3b5109858eea94317f7b7243d78eb3f554df
 # Calculate the BLEU score
 # nltk.download('wordnet', download_dir='/usr/local/share/nltk_data')
 
@@ -12,7 +15,11 @@ nltk.download('wordnet')
 
 def meteor():
     print("meteor started")
+<<<<<<< HEAD
     # nltk.download('wordnet')
+=======
+    nltk.download('wordnet')
+>>>>>>> 956b3b5109858eea94317f7b7243d78eb3f554df
     generated_summary = open("./summary.txt","r",encoding="utf8").read()
     reference_summary = open("./transcript.txt","r",encoding="utf8").read()
 
