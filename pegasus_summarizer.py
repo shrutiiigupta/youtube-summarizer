@@ -41,7 +41,7 @@ def pegasus_summarizer():
     #     summary=summarizer(txt)
     #     result+=summary[0]["summary_text"]
 
-    summary = summarizer(example_text, min_length=200, max_length=512,truncation=True)
+    summary = summarizer(example_text, min_length=100, max_length=512,truncation=True)
     result=summary[0]["summary_text"]
     # # summary = summarizer(example_text)
     # summary = summarizer(example_text, min_length=100, max_length=300, truncation=True)

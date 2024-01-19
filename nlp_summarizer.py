@@ -15,7 +15,6 @@ def nlp_spacy_summarizer():
             example_text = f.read()
 
       doc = nlp(example_text)
-      print("xx")
 
       result=''
       for sent in doc._.textrank.summary(limit_phrases=20, limit_sentences=12):
@@ -23,6 +22,7 @@ def nlp_spacy_summarizer():
             # print(sent.text)
 
       print(result)
+      print("nlp spacy done")
             
       return(result)
             

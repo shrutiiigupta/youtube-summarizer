@@ -1,34 +1,32 @@
-# import torch
-# from rouge import Rouge
-
-
-# # print(generated_summary)
-
-# rouge = Rouge()
-
-# scores = rouge.get_scores(generated_summary, reference_summary)
-
-# print(scores)
-
-
-from rouge_score import rouge_scorer
+import torch
+from rouge import Rouge
 
 def rouge():
+    print("Rouge started")
     generated_summary = open("./summary.txt","r",encoding="utf8").read()
     reference_summary = open("./transcript.txt","r",encoding="utf8").read()
-    
-    scorer = rouge_scorer.RougeScorer(['rouge1','rouge2', 'rougeL'], use_stemmer=True)
-    scores = scorer.score(generated_summary, reference_summary)
+    # print(generated_summary)
+    # metrics=['rouge-n', 'rouge-l', 'rouge-w']
+    metrics=['rouge-n', 'rouge-l']
+    rouge = Rouge(metrics, max_n=2)
+
+    scores = rouge.get_scores(generated_summary, reference_summary)
+
     # print(scores)
+    total_f_score = 0.0
+    cnt=0
+    for metric, values in scores.items():
+        f_value = values['f']
+        print(f"{metric}: F = {f_value}")
+        total_f_score += f_value
+        cnt+=1
 
-    total_precision = sum(score_instance.fmeasure for score_instance in scores.values())
-    count = len(scores)
+    avg= total_f_score/cnt
+    print("\nTotal F Score:", total_f_score)
+    print("\Avg F Score:", avg)
 
-    # Calculate the average precision
-    average_precision = total_precision / count
-
-    print(f'Total Precision: {total_precision}\nNumber of Scores: {count} \nAverage Precision: {average_precision}')
-    return(round(average_precision,2))
+    print("Rouge ended")
+    return(round(avg,2))
 
 # rouge()
 
