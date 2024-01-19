@@ -7,8 +7,9 @@ def rouge_func():
     reference_summary = open("./transcript.txt","r",encoding="utf8").read()
     # print(generated_summary)
     # metrics=['rouge-n', 'rouge-l', 'rouge-w']
-    metrics=['rouge-n', 'rouge-l']
-    rouge2 = rouge.Rouge(metrics, max_n=2)
+    # metrics=['rouge-n', 'rouge-l']
+    metrics=['rouge-1','rouge-2', 'rouge-l']
+    rouge2 = rouge.Rouge(metrics)
 
     scores = rouge2.get_scores(generated_summary, reference_summary)
 
