@@ -2,7 +2,7 @@ bert_score==0.3.13
 nltk==3.8.1
 numpy==1.26.3
 openai_whisper==20231117
-py_rouge==1.1
+# py_rouge==1.1
 pytextrank==3.2.5
 pytube==15.0.0
 pytube3==9.6.4
