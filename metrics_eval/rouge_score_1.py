@@ -1,7 +1,7 @@
 import torch
 import rouge
 
-def rouge():
+def rouge_func():
     print("Rouge started")
     generated_summary = open("./summary.txt","r",encoding="utf8").read()
     reference_summary = open("./transcript.txt","r",encoding="utf8").read()
