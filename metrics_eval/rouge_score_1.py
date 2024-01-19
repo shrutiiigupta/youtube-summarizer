@@ -12,21 +12,21 @@ def rouge_func():
     metrics=['rouge-1','rouge-2', 'rouge-l']
     rouge2 = rouge.Rouge(metrics)
 
-    score = rouge2.get_scores(generated_summary, reference_summary)
+    scores = rouge2.get_scores(generated_summary, reference_summary)
 
     # print(scores)
-    # total_f_score = 0.0
-    # cnt=0
-    # for metric, values in scores:
-    #     f_value = values['f']
-    #     print(f"{metric}: F = {f_value}")
-    #     total_f_score += f_value
-    #     cnt+=1
+    total_f_score = 0.0
+    cnt=0
+    for metric, values in scores:
+        f_value = values['f']
+        print(f"{metric}: F = {f_value}")
+        total_f_score += f_value
+        cnt+=1
 
-    # avg= total_f_score/cnt
-    # print("\nTotal F Score:", total_f_score)
-    # print("\Avg F Score:", avg)
-    avg = np.mean([score["rouge-1"]["f"], score["rouge-2"]["f"], score["rouge-l"]["f"]])
+    avg= total_f_score/cnt
+    print("\nTotal F Score:", total_f_score)
+    print("\Avg F Score:", avg)
+    # avg = np.mean([score["rouge-1"]["f"], score["rouge-2"]["f"], score["rouge-l"]["f"]])
 
     print("Rouge ended")
     return(round(avg,2))
