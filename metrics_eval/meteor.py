@@ -3,6 +3,7 @@ from nltk import word_tokenize
 
 import nltk
 nltk.download('wordnet')
+nltk.download('punkt')
 # Calculate the BLEU score
 # nltk.download('wordnet', download_dir='/usr/local/share/nltk_data')
 
