@@ -59,8 +59,8 @@ if (col1.button('Submit')):
         # with c1:
         c1.markdown("### Meteor Score : " + "\n #### " + str(meteor.meteor()))
         # with c2:
-        c2.markdown("### Rouge Score : " + "\n #### " +
-                    str(rouge_score_1.rouge_func()))
+        # c2.markdown("### Rouge Score : " + "\n #### " +
+        #             str(rouge_score_1.rouge_func()))
         # with c3:
         try:
             c3.markdown("### Bert Score : " + "\n #### " +
