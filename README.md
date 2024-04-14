@@ -19,6 +19,10 @@ Steps:
      - A. BertScore
      - B. Rogue
      - C. Meteor
+  
+Screenshot:
+![image](https://github.com/shrutiiigupta/youtube-summarizer/assets/98140693/406c7b46-149a-4157-8b58-f493d5d3571e)
+
 
 
 The Authors of this project are:
